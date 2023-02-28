@@ -1,0 +1,45 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;
+}
+
+.carousel {
+    z-index: -99;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+}
+
+.btn-primary {
+    background-color: #F05F44;
+    border-color: #F05F44;
+    --bs-btn-hover-bg: blueviolet;
+    --bs-btn-hover-border-color: blueviolet;
+}
+
+.btn-primary:hover {
+    transform: scale(1.2);
+}
+
+.buffer {
+    height: 12rem;
+}
